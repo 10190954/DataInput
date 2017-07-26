@@ -58,7 +58,7 @@ public class DataInput {
 		 Integer year = cur_year;
 		 if(v_num.size()==2) //表示输入了05JUL12
 		 {
-			 cur_year=(Integer) v_num.elementAt(1);
+			 cur_year=(Integer) v_num.elementAt(1); //
 		 }
 		 else //表示没有输入年，入05JUL
 		 {
